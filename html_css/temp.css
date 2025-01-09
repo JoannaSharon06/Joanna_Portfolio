@@ -1,8 +1,11 @@
 .topnav {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
   }
   
+  body{
+    background-color: #000000;
+  }
   .topnav a {
     float: right;
     color: #f2f2f2;
@@ -24,6 +27,8 @@
 
   .header-text
   {
+    background-color: #000000;
+    color: white;
     margin-top:20%;
     font-size:30px;
   }
@@ -31,4 +36,72 @@
   .header-text h1{
     font-size:60px;
     margin-top:20px;
+  }
+
+  #about{
+    padding:80px;
+    color:white;
+
+  }
+
+  .row
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about1
+  {
+    flex-basis:35%;
+  }
+
+  .about1 img {
+    width:100%;
+    border-radius:15px;
+  }
+
+  .about2
+  {
+    flex-basis:60%;
+  }
+
+  .tabtitles
+  {
+    display:flex;
+    margin:20px 0 40px;
+  }
+
+  .tablinks
+  {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor:pointer;
+    position: relative;
+  }
+
+  .tablinks::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background:rgb(220, 34, 90) ;
+    position: absolute;
+    left:0;
+    bottom:-8px;
+    transition: 0.5s;
+  }
+
+  .tablinks.activelink::after{
+    width:50%;
+  }
+
+  .tabcontents ul li{
+    list-style:none;
+    margin:10px 0;
+  }
+
+  .tabcontents ul li span{
+    color:rgb(220, 34, 90);
+    font-size: 14px;
   }
