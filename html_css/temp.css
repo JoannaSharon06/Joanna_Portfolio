@@ -77,6 +77,12 @@ nav ul li a:hover::after{
 
   }
 
+  about1 img{
+    width:100%;
+    border-radius:15px;
+  }
+
+  
   .row
   {
     display: flex;
