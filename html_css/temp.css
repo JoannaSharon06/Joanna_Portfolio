@@ -7,6 +7,7 @@
 
 body{
   background: #080808;
+  background-image: url("images/joanna1.jpeg");
   color: #fff;
 }
 
@@ -56,11 +57,12 @@ nav ul li a::after{
 {
   margin-top: 20%;
   font-size: 30px;
+  margin:250px;
 }
 
 .headertext h1{
   font-size: 60px;
-  margin-top: 20px;
+  
 }
 
 .headertext h1 span{
@@ -74,7 +76,7 @@ nav ul li a:hover::after{
   #about{
     padding:80px;
     color:white;
-
+   
   }
 
   about1 img{
